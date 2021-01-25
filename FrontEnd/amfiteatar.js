@@ -6,19 +6,6 @@ export class Amfiteatar{
         this.tren = 0;
         this.amfiKontejner=document.createElement("div");
         this.amfiKontejner.className = "amfiKontejner";
-
-
-        /*if(this.amfiKontejner.childNodes.length<3){
-            this.labela = document.createElement("label");
-            this.labela.innerHTML = `${this.naziv}(${this.tren}/${this.kapacitet})`;
-    
-            this.divZaPopunjenost = document.createElement("div");
-            this.divZaPopunjenost.className = "divZaPopunjenost";
-    
-            this.divKockice = document.createElement("div");
-            this.divKockice.className = "divKockice";
-            this.divZaPopunjenost.appendChild(divKockice);
-        }*/
     }
 
     crtajAmfi(host){
@@ -42,7 +29,15 @@ export class Amfiteatar{
         dugme.innerHTML = "Izbrisi";
         dugme.onclick = ev=>{
 
+            if(this.tren==0)
+            {
+            fetch("https://localhost:5001/Rok/IzbrisiAmfiteatar/"+this.naziv +"/"+this.ispit.sifraPredmeta,{
+                    method:"DELETE"
+                });
             this.ukloniAmfi();
+            }
+            else
+            alert("Amfiteatar nije prazan!");
 
         }
 

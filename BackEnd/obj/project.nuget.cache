@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fgEkNYLwOEKJ5Q212H/xmaqCJ9iU3WSgdbhK17qs0382K0G+6HCyQruqn1vcsALGAM3agZgSxoBpy1vQQlzpJA==",
+  "dgSpecHash": "H+fCEkW1iDYcpkB8pKaomIlay/1WzJebGTZ/5TuS7mBbGdJ4ElHRTpVR8Pwy9Nr9QQ1+SFJYz/2RsdNfLfBL1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WinWin\\Desktop\\Projekat\\Projekat.csproj",
+  "projectFilePath": "C:\\Users\\WinWin\\Desktop\\WEB_PROJEKAT\\WebProgramiranjeProjekat\\BackEnd\\Projekat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WinWin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\WinWin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

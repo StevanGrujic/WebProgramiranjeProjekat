@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WinWin\\Desktop\\Projekat\\Projekat.csproj": {}
+    "C:\\Users\\WinWin\\Desktop\\WEB_PROJEKAT\\WebProgramiranjeProjekat\\BackEnd\\Projekat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WinWin\\Desktop\\Projekat\\Projekat.csproj": {
+    "C:\\Users\\WinWin\\Desktop\\WEB_PROJEKAT\\WebProgramiranjeProjekat\\BackEnd\\Projekat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WinWin\\Desktop\\Projekat\\Projekat.csproj",
+        "projectUniqueName": "C:\\Users\\WinWin\\Desktop\\WEB_PROJEKAT\\WebProgramiranjeProjekat\\BackEnd\\Projekat.csproj",
         "projectName": "Projekat",
-        "projectPath": "C:\\Users\\WinWin\\Desktop\\Projekat\\Projekat.csproj",
+        "projectPath": "C:\\Users\\WinWin\\Desktop\\WEB_PROJEKAT\\WebProgramiranjeProjekat\\BackEnd\\Projekat.csproj",
         "packagesPath": "C:\\Users\\WinWin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WinWin\\Desktop\\Projekat\\obj\\",
+        "outputPath": "C:\\Users\\WinWin\\Desktop\\WEB_PROJEKAT\\WebProgramiranjeProjekat\\BackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WinWin\\AppData\\Roaming\\NuGet\\NuGet.Config",

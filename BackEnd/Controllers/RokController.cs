@@ -116,15 +116,22 @@ namespace ProjekatBackend.Controllers
         }
 
         [HttpDelete]
-        [Route("IzbrisiAmfiteatar/{id}")]//reseno
+        [Route("IzbrisiAmfiteatar/{Naziv}/{sifraIspita}")]//reseno
 
-        public async Task IzbrisiAmfiteatar(int id)
+        public async Task IzbrisiAmfiteatar(string Naziv,int sifraIspita)
         {
-            var amfi=await Kontekst.Amfiteatri.FindAsync(id);
-            if(amfi!=null)
+            Ispit ispit = await Kontekst.Ispiti.FindAsync(sifraIspita);
+            var amfii = from amf in Kontekst.Amfiteatri
+                            where amf.Naziv==Naziv && amf.Ispit==ispit
+                            select amf;
+            if(amfii.Any())
             {
-                Kontekst.Remove(amfi);
-                await Kontekst.SaveChangesAsync();
+                foreach(Amfiteatar a in amfii)
+                {
+                    Kontekst.Amfiteatri.Remove(a);
+                }
+                
+                    await Kontekst.SaveChangesAsync();
             }
         }
 
